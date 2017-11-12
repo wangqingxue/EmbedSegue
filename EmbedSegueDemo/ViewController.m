@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "BaseTableViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) BaseTableViewController *segueBaseTableViewController;
 
 @end
 
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSArray *dataArray = @[@"第一行",@"第二行",@"第三行",@"第四行"];
+    if ([segue.identifier isEqualToString:@"BaseEmbedSegue"]){
+        self.segueBaseTableViewController = segue.destinationViewController;
+        self.segueBaseTableViewController.arrayData = dataArray;
+    }
 }
 
 

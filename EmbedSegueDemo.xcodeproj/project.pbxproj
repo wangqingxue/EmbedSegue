@@ -15,6 +15,7 @@
 		C61D196D1FB8174C00CB73F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D196C1FB8174C00CB73F5 /* main.m */; };
 		C61D19771FB8174C00CB73F5 /* EmbedSegueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D19761FB8174C00CB73F5 /* EmbedSegueDemoTests.m */; };
 		C61D19821FB8174C00CB73F5 /* EmbedSegueDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D19811FB8174C00CB73F5 /* EmbedSegueDemoUITests.m */; };
+		C62319C61FB81C8E0035C842 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62319C51FB81C8E0035C842 /* BaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C61D197D1FB8174C00CB73F5 /* EmbedSegueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbedSegueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61D19811FB8174C00CB73F5 /* EmbedSegueDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbedSegueDemoUITests.m; sourceTree = "<group>"; };
 		C61D19831FB8174C00CB73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62319C41FB81C8E0035C842 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		C62319C51FB81C8E0035C842 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C61D195E1FB8174C00CB73F5 /* AppDelegate.m */,
 				C61D19601FB8174C00CB73F5 /* ViewController.h */,
 				C61D19611FB8174C00CB73F5 /* ViewController.m */,
+				C62319C41FB81C8E0035C842 /* BaseTableViewController.h */,
+				C62319C51FB81C8E0035C842 /* BaseTableViewController.m */,
 				C61D19631FB8174C00CB73F5 /* Main.storyboard */,
 				C61D19661FB8174C00CB73F5 /* Assets.xcassets */,
 				C61D19681FB8174C00CB73F5 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				C61D19621FB8174C00CB73F5 /* ViewController.m in Sources */,
 				C61D196D1FB8174C00CB73F5 /* main.m in Sources */,
+				C62319C61FB81C8E0035C842 /* BaseTableViewController.m in Sources */,
 				C61D195F1FB8174C00CB73F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

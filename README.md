@@ -1,1 +1,2 @@
 # EmbedSegue
+方便解耦合Controller,用于StoryBoard中源视图控制器和目标视图控制器的连接。
